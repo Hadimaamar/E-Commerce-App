@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  font-family: "Urbanist", sans-serif;
+}
+@layer components {
+  .footerListItem {
+    @apply w-[50%] mb-3;
+  }
+  .contactItem {
+    @apply mb-5 flex items-center;
+  }
+  .productListSelect {
+    @apply p-3 my-3 md:mr-5 md:my-0 border border-solid border-[gray];
+  }
+  .item {
+    @apply my-8 flex justify-between;
+  }
+}
